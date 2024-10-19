@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    SISTEMA DE GESTÃO ACADEMICA
+    <br>
+    <br>
+    MANUTENÇÃO DE USUARIOS DO SISTEMA INTERNO
+    <BR>
+    <BR>
+    LOGIN: <input type ="text" id="LOGIN"/>
+    <br>
+    <br>
+    LOGIN: <input type ="SENHA" id="SENHA"/>
+    <br>
+    <br>
+    <label for="cars"> Status </label>
+ 
+    <select name="Status" id="Status">
+    <option value="inativo">Inativo</option>
+     <option value="ativo">Ativo</option>
+    
+
+</select>
+    <br>
+    <br>
+    TIPO: <input type="radio"> Técnico <input type="radio"> Professor <input type="radio"> Aluno
+    <br>
+    <br>
+    DATA DE CRIAÇÃO: <input type ="text" id="DATA DE CRIAÇÃO"/>
+    <BR>
+    <BR>
+    Perfil: <input type="radio"> Convidado <input type="radio"> Administrador
+    <br>
+    <br>
+    <textarea id="meuTextarea" name="meuTextarea" rows="4" cols="50" placeholder="Escreva aqui..."></textarea>
+    <br>
+    <br>
+    Modulos: Compras <input type ="checkbox" id="checkbox"/> Biblioteca <input type ="checkbox" id="checkbox"/> Academico <input type ="checkbox" id="checkbox"/>
+    <br>
+    <br>
+    Documentação <input type ="checkbox" id="checkbox"/> Recursos Humanos <input type ="checkbox"/>
+    <br>
+   </form>
+   <br>
+   <button> Cadastar </button>  <button> Excluir </button>
+</form>
+
+</body>
+</html>
